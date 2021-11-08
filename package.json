@@ -1,0 +1,14 @@
+{
+  "name": "area51-typescrypt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": "true",
+  "workspaces":[
+    "projetos/*"
+  ],
+  "scripts": {
+    "site": "yarn workspace @schultzgabriel/site",
+    "site:dev": "yarn site dev"
+  }
+}
