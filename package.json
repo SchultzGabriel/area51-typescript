@@ -9,6 +9,8 @@
   ],
   "scripts": {
     "site": "yarn workspace @schultzgabriel/site",
-    "site:dev": "yarn site dev"
+    "site:dev": "yarn site dev",
+    "ui": "yarn workspace @schultzgabriel/ui",
+    "ui:start": "yarn ui start"
   }
 }
