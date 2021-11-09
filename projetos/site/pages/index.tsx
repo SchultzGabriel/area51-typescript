@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import Button from '@schultzgabriel/modulo-comum/components/Button'
+import Button from '@schultzgabriel/ui/src/components/Button'
 
 const Title = styled.h1`
   color: red;
