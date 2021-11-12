@@ -9,9 +9,7 @@ const Title = styled.h1`
 export default function Home() {
   return(
     <>
-    <Button>
-      Clique aqui!
-    </Button>
+    <Button />
     <Title>My page</Title>
     </>
   )
