@@ -10,7 +10,9 @@
   "scripts": {
     "site": "yarn workspace @schultzgabriel/site",
     "site:dev": "yarn site dev",
+    "site:build": "yarn site build",
     "ui": "yarn workspace @schultzgabriel/ui",
-    "ui:start": "yarn ui start"
+    "ui:start": "yarn ui start",
+    "ui:build": "yarn ui build"
   }
 }

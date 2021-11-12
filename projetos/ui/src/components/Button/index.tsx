@@ -1,14 +1,10 @@
 import React from "react";
-import PropTypes from 'prop-types';
 
-export default function Button({ children }){
+export default function Button(){
     return(
         <button>
-            {children}
+          Clique aqui!
         </button>
     )
 }
 
-Button.propTypes = {
-  children: PropTypes.string.isRequired,
-};
